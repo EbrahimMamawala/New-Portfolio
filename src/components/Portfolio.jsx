@@ -4,7 +4,6 @@ import blogWebsite from "../assets/portfolio/Blog-Website.jpg";
 import capitalQuiz from "../assets/portfolio/CapitalQuiz.jpg";
 import bandGenerator from "../assets/portfolio/BandGen.jpg";
 import iotGamified from "../assets/portfolio/IOTGamified.jpg";
-import travelTracker from "../assets/portfolio/TravelTracker.jpg";
 
 const Portfolio = () => {
   const portfolios = [
@@ -16,30 +15,24 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: travelTracker,
-      name: "Travel Tracker",
-      codeLink: "",
-    },
-    {
-      id: 3,
       src: iotGamified,
       name: "IoT Gamified Blueprint",
       codeLink: "https://github.com/EbrahimMamawala/IOT-Gamified-final/tree/main",
     },
     {
-      id: 4,
+      id: 3,
       src: blogWebsite,
       name: "Blog Website",
       codeLink: "https://github.com/EbrahimMamawala/Blog-API",
     },
     {
-      id: 5,
+      id: 4,
       src: capitalQuiz,
       name: "World Capital Quiz",
       codeLink: "https://github.com/EbrahimMamawala/World-Capital-Quiz",
     },
     {
-      id: 6,
+      id: 5,
       src: bandGenerator,
       name: "Band Name Generator",
       codeLink: "https://github.com/EbrahimMamawala/Band-Name-Generator",
